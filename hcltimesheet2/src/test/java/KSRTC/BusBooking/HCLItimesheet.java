@@ -33,7 +33,7 @@ public class HCLItimesheet {
 			      driver.findElement(By.xpath("/html/body/ul/li/table/tbody/tr/td/a")).click();
 			      Thread.sleep(6000);
 			      
-			      WebElement TimeEnter=driver.findElement(By.xpath("/html/body/main/div/div[2]/section/div[4]/div[1]/div/div/div/div[2]/div/div[1]/span[2]/div[2]/div/div/div/div/div/div[3]/div/div/div/div/input"));
+			      WebElement TimeEnter=driver.findElement(By.xpath("/html/body/main/div/div[2]/section/div[4]/div[1]/div/div/div/div[2]/div/div[1]/span[2]/div[2]/div/div/div/div/div/div[4]/div/div/div/div/input"));
 			      TimeEnter.sendKeys("09:00");
 			      System.out.println("Time Entered Successfully");
 			      
